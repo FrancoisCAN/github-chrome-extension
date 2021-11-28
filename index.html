@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous"
+        >
+        <link rel="stylesheet" href="theme/main.css">
+        <title>GitHub Review File Manager</title>
+    </head>
+    <body>
+        <div class="popup">
+            <p class="m-2">GitHub Review File Manager <span class="badge bg-secondary">v1.0.0</span></p>
+            <div class="d-none m-2" id="alertMessage">
+                <p>This extension doesn't work here.</p>
+                <p>Please use it on
+                    <a href="https://github.com" target="_blank">GitHub</a>
+                </p>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <img src="images/bouton-visibilite.png" class="img-fluid" alt="Open files">
+                    <button type="button" class="btn btn-dark" id="openAll">Open all files</button>
+                </li>
+                <li class="list-group-item">
+                    <img src="images/bouton-invisible.png" class="img-fluid" alt="Close files">
+                    <button type="button" class="btn btn-dark" id="closeAll">Close all files</button>
+                </li>
+                <li class="list-group-item">
+                    <img src="images/bouton-termine.png" class="img-fluid" alt="Check files">
+                    <button type="button" class="btn btn-dark" id="checkAll">Check all files</button>
+                </li>
+                <li class="list-group-item">
+                    <img src="images/bouton-fermer.png" class="img-fluid" alt="Uncheck files">
+                    <button type="button" class="btn btn-dark" id="unCheckAll">Uncheck all files</button>
+                </li>
+            </ul>
+        </div>
+        <script src="script/index.js"></script>
+    </body>
+</html>

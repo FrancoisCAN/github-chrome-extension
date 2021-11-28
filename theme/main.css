@@ -1,0 +1,18 @@
+.popup {
+    width: 220px;
+}
+.popup p {
+    font-size: small;
+    margin-bottom: 0;
+}
+.popup .list-group .list-group-item {
+    cursor: pointer;
+}
+.popup .list-group .list-group-item img {
+    margin-right: 15px;
+    width: 20px;
+}
+.popup .list-group .list-group-item button {
+    font-size: 14px;
+    font-weight: bold;
+}

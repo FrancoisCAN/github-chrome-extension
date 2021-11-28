@@ -1,0 +1,27 @@
+{
+  "name": "GitHub Review File Manager",
+  "description": "Convenient tool to easily manage files in GitHub reviews.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "main.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "/images/icons/github-16.png",
+      "32": "/images/icons/github-32.png",
+      "128": "/images/icons/github-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/icons/github-16.png",
+    "32": "/images/icons/github-32.png",
+    "128": "/images/icons/github-128.png"
+  }
+}
